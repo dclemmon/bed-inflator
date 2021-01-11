@@ -56,7 +56,7 @@ async def send_commands(address: str):
 
 
 if __name__ == "__main__":
-    time_delay = datetime.timedelta(hours=1)  # Set how often to run the script
+    time_delay = datetime.timedelta(minutes=45)  # Set how often to run the script
     run_time = datetime.datetime.now() - time_delay  # Set this so it'll run right away
     while True:
         if datetime.datetime.now() - run_time >= time_delay:
